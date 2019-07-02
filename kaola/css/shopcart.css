@@ -1,0 +1,93 @@
+
+.cart_box{
+	width: 1090px;
+	margin: 0  auto;
+}
+.cart_box .part1{
+	width: 1092px;
+	height: 218px;
+	border-top: 1px solid #fff;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+.part1 .cart_icon{
+	background: url(../images/shopcart.jpg) no-repeat;
+	height: 48px;
+	margin-left: 340px;
+	margin-top: 90px;
+	position: relative;
+}
+.cart_txt{
+	height: 48px;
+	display: inline-block;
+	position: absolute;
+	top: 90px;
+	left: 400px;
+	font-size: 16px;
+	color: #333;
+}
+.cart_txt a{
+	color: #d12147;
+}
+.cart_txt a:hover{
+	color: #f5345e;
+}
+.cart_txt .togo{
+	position: absolute;
+}
+.part_like h4{
+	font-size: 18px;
+	color: #333;
+}
+.part_like h4 b{
+	font-size: 14px;
+	color: #999;
+	padding-left: 8px;
+}
+.part_like .container{
+	width: 1150px;
+	height: 320px;
+	margin-top: 20px;
+	margin-left: -15px;
+}
+.part_like .li_box{
+	width: 204px;
+	height: 304px;
+	border:1px solid #eaeaea;
+	float: left;
+	margin-left: 15px;
+}
+.li_box .goods-img img{
+	width: 204px;
+	height: 204px;
+	display: inline-block;
+}
+.li_box .goods-title{
+	height: 40px;
+	padding: 0 15px;
+	margin-bottom: 15px;
+}
+.li_box .goods-title a{
+	color: #333;
+}
+.li_box a:hover{
+	text-decoration: underline;
+}
+.li_box .goods-price{
+	font-size: 16px;
+	color: #e31436;
+	font-weight: 700;
+	padding: 0 15px;
+}
+.li_box .goods-price span{
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+	text-decoration: line-through;
+}
+.li_box .goods-comment{
+	font-size: 12px;
+	color: #999;
+	padding: 0 15px;
+}
