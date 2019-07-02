@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录-网易考拉</title>
+	<link rel="stylesheet" href="css/kaola_login.css">
+	<script src="js/kaola_login.js"></script>
+</head>
+<body>
+	<header>
+		<div class="docHeadWrap">
+			<a href="kaola.html" class="logokaola" title="网易考拉"></a>
+		</div>
+	</header>
+	<section class="web-container">
+		<div class="login-body">
+			<a href="#">
+				<img src="images/web-container.png" alt="网易原装正品">
+			</a>
+			<div class="loginWrap">
+				<div id="signin_page">
+					<div class="top">
+						<div id="tel" onclick="telColor()">手机号登录</div>
+						<span></span>
+						<div id="email" onclick="emailColor()" style="color: #e31436">邮箱登录</div>
+					</div>
+					<div id="login1" class="loginbox2">
+						<div class="phone_box">
+							<div class="u_tab">
+								<a href="#">使用密码验证登录</a>
+							</div>
+							<div class="input_box" style="margin-top: 5px;">
+								<input type="text" placeholder="请输入手机号">
+								<div class="tel_icon"></div>
+							</div>
+							<div class="input_box" style="position: relative;">
+								<input type="text" placeholder="请输入短信验证码" style="padding-right: 80px;">
+								<div class="yzm_btn">
+									<a href="#">获取验证码</a>
+								</div>
+							</div>
+							<div class="login_btn" style="margin-top: 20px;">
+								<button>登录</button>
+							</div>
+							<div class="radio_txt">
+								<input type="checkbox" id="login"/>
+								<label for="login">10天免登陆</label>
+								<a href="#">忘记密码？</a>
+							</div>
+						</div>
+					</div>
+					<div id="login2" class="loginbox2">
+						<div class="mail_box">
+							<div class="input_box" id="input_border">
+								<input type="text" placeholder="网易邮箱账号" />
+								<div class="mail_icon"></div>
+							</div>
+							<div class="input_box">
+								<input type="text" placeholder="密码" />
+								<div class="pwd_icon"></div>
+							</div>
+							<div class="login_btn">
+								<button>登录</button>
+							</div>
+							<div class="radio_txt">
+								<input type="checkbox" id="login_2" />
+								<label for="login_2">10天免登陆</label>
+								<a href="#">忘记密码？</a>
+							</div>
+						</div>
+					</div>
+					<div class="proto">
+						登录即代表您已同意
+						<a href="#">“隐私权相关政策”</a>
+					</div>
+					<div class="bottom">
+						<ul class="four_icons">
+							<li class="icons">
+								<a href="#" class="icon1 icon_common"></a>
+							</li>
+							<li class="icons">
+								<a href="#" class="icon2 icon_common"></a>
+							</li>
+							<li class="icons">
+								<a href="#" class="icon3 icon_common"></a>
+							</li>
+							<li class="icons">
+								<a href="#" class="icon4 icon_common"></a>
+							</li>
+						</ul>
+						<a href="#" id="to_signout" onfocus="toSignout()">
+							手机快捷注册
+							<span class="icon_common arrow"></span>
+						</a>
+					</div>
+				</div>
+				<div id="signout_page">
+					<div class="top">
+						<div class="signout_title">欢迎注册</div>
+						<div class="singout_tologin">
+							已有账号？
+							<a href="#" id="to_login" onclick="toLogin()">去登录></a>
+						</div>
+					</div>
+					<div class="signout_box">
+						<form class="signout_body">
+							<div class="input_box" style="margin-top: 5px;">
+								<input type="text" placeholder="请输入手机号" style="padding-left: 36px;">
+								<div class="tel_icon"></div>
+							</div>
+							<div class="input_box" style="position: relative;">
+								<input type="text" placeholder="请输入短信验证码" style="padding-left: 10px;">
+								<div class="yzm_btn">
+									<a href="#">获取验证码</a>
+								</div>
+							</div>
+							<div class="input_box">
+								<input type="text" placeholder="请输入密码" style="padding-left: 37px;"/>
+								<div class="pwd_icon" style="left: -210px"></div>
+							</div>
+							<div class="login_btn" style="margin-top: 32px;">
+								<button>注册</button>
+							</div>
+							<div class="radio_txt2">
+								<input type="checkbox" id="login_3" />
+								<label for="login_3" style="margin-left: 5px;">
+									我同意
+									<a href="#">《服务条款》</a>
+									和
+									<a href="#">《网易考拉隐私政策》</a>
+								</label>
+							</div>
+						</form>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="foot">
+		<div class="foot_container">
+			<a href="#">About NetEase</a>
+			<span>|</span>
+			<a href="#">公司简介</a>
+			<span>|</span>
+			<a href="#">联系方法</a>
+			<span>|</span>
+			<a href="#">友情链接</a>
+			<span>|</span>
+			<a href="#">招聘信息</a>
+			<span>|</span>
+			<a href="#">客户服务</a>
+			<span>|</span>
+			<a href="#">隐私政策</a>
+			<span>|</span>
+			<a href="#">网络营销</a>
+			<span>|</span>
+			<a href="#">网易考拉</a>
+			<br>
+			<span class="license">网络文化经营许可证：浙网文[2016]0155-055号</span>
+			<span class="license">增值电信业务经营许可证：浙B2-20160288</span>
+			<span class="license">
+				<a href="#">自营经营者信息</a>
+			</span>
+			<span class="license">（浙）网械平台备字[2018]第00007号</span>
+			<br>
+			<a href="#">
+				<img src="images/jin.png">
+			</a>
+			<a href="#">
+				<span style="margin: 0px 0px 0px 5px;">浙公网安备 33010802002216号</span>
+			</a>
+			<span class="license">网易公司版权所有©1997-2019</span>
+			<a href="#">
+				<span style="margin: 0px 0px 0px 20px;">互联网药品信息服务资格证书编号（浙）-2017-0027</span>
+			</a>
+			<span class="license">浙ICP备16011229号-6</span>
+			<br>
+			<a href="#">
+				<img src="images/last1.png" style="width: 80px;height: 30px; margin: 5px 0 0 10px;">
+			</a>
+			<a href="#">
+				<img src="images/last2.gif" style="width: 27.85px;height: 30px; margin: 5px 0 0 10px;">
+			</a>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+
+
